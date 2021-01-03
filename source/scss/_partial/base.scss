@@ -24,7 +24,22 @@ ul.post-list {
 }
 
 ul {
-    margin: 1rem 0;
+    padding-inline-start: 30px;
+    margin: 0.5rem 0;
+}
+
+ol {
+    padding-inline-start: 20px;
+}
+
+li > p:first-child {
+    font-weight: 500;
+    font-size: 1.05em;
+}
+
+::marker {
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 a, a:active {

@@ -1,4 +1,4 @@
-# hexo theme apoll0
+# hexo theme apollo
 
 ![hexo-theme-apollo](https://pic.rmb.bdstatic.com/af5790651695edd53f917eb9c3b7708f.png)
 
@@ -79,22 +79,6 @@ gitalk:
   clientID: your clientId
   clientSecret: your clientSecret
 ```
-
-## Danger Block
-
-Use html tag with special class property to render block:
-
-```html
-<div class="tip">
-    预处理器很强大，但它只是编写 CSS 的辅助工具。出于对扩展和维护等方面的考虑，在大型项目中有必要使用预处理器构建 CSS；但是对于小型项目，原生的 CSS 可能是一种更好的选择。不要肆意使用预处理器！
-</div>
-```
-
-![danger](https://cloud.githubusercontent.com/assets/9530963/11359678/489a510c-92b9-11e5-9256-341cef6999b6.png)
-
-## Legends
-
-This may lead to disappointed: i don't have spacial tool to create diagrams，but just Microsoft Powerpoint。
 
 ## Last but not Least
 

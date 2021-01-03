@@ -2,14 +2,12 @@
 
 ## 修改说明
 
-本项目基于apollo主题修改, 新增以下功能
+本项目基于 apollo 主题修改, 新增以下功能
 
 1. 支持`tag`显示
 2. 增加`category`页面  
 3. 增加`gitalk`支持
 4. 增加友链页面
-
-![hexo-theme-apollo](https://pic.rmb.bdstatic.com/14a2b512b64854be45f03ebbf100b6cf.png)
 
 ## 文档
 
@@ -47,7 +45,7 @@ npm i hexo-theme-apollo@latest
 ## 开发
 
 ``` bash
-git clone https://github.com/achjqz/hexo-theme-apollo.git apollo
+git clone https://github.com/achjqz/hexo-theme-apollo.git themes/apollo
 cd apollo
 npm install
 npm install -g gulp-cli
