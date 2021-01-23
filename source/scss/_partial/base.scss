@@ -1,6 +1,5 @@
 ::selection {
-    color: #FFFFFF;
-    background-color: #5454f8;
+    background: #bad7fa;
 }
 
 html, body {
@@ -10,11 +9,13 @@ html, body {
 
 body {
     margin: 0;
-    color: #34495e;
     font-size: 1em;
-    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background-color: #fff;
-    font-family: Source Sans Pro;
 }
 ul.nav,
 ul.post-list {
