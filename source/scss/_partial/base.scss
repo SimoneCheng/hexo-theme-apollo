@@ -34,13 +34,11 @@ ol {
 }
 
 li > p:first-child {
-    font-weight: 500;
     font-size: 1.05em;
 }
 
 ::marker {
     font-size: 1.1em;
-    font-weight: 500;
 }
 
 a, a:active {
@@ -64,11 +62,11 @@ hr {
 }
 
 code {
-    margin: 0 2px;
-    padding: 3px 5px;
-    color: #e96900;
-    border-radius: 2px;
-    white-space: inherit;
+    padding: 0 3px;
+    font-size: 0.94em;
+    word-break: break-word;
+    background: rgba(255,229,100,0.2);
+    color: #1a1a1a;
 }
 
 iframe, video {

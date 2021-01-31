@@ -53,10 +53,11 @@
     h4, h5, h6 {
         font-size: 1.1em;
     }
-    a:not(.footnote-backref) {
+    a:not(.footnote-backref):not(#more):not(.license) {
         background-color: rgba(187,239,253,0.3);
         border-bottom: 1px solid rgba(0,0,0,0.2);
         color: #1a1a1a;
+        margin: 0px 2px;
     }
     blockquote {
         margin: 2em 0;
@@ -122,20 +123,6 @@
     #mask-image {
         max-width: 95%;
     }
-}
-
-p > code {
-    padding: 0 3px;
-    font-size: 0.94em;
-    word-break: break-word;
-    background: rgba(255,229,100,0.2);
-    color: #1a1a1a;
-}
-
-code,
-pre {
-    font-size: 0.9em;
-    background-color: #f8f8f8;
 }
 
 .highlight {
