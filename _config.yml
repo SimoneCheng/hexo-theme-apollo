@@ -8,8 +8,8 @@ menu:
     Rss: /atom.xml
     # Friends: /friends/
 
-favicon: favicon.png
-logo: favicon.png
+favicon: dovefavicon.png
+logo: dovefavicon.png
 avatar: favicon.png
 # Comment
 # e.g disqus: achjqz
