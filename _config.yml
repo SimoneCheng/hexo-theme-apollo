@@ -1,10 +1,12 @@
 menu:
     Blog: /
+    # Tags: /tags/
     Archive: /archives/
-    Category: /categories/
-    GitHub: https://github.com/achjqz
+    About: /about/
+    # Category: /category/
+    GitHub: https://github.com/SimoneCheng
     Rss: /atom.xml
-    Friends: /friends/
+    # Friends: /friends/
 
 favicon: favicon.png
 logo: favicon.png
@@ -25,4 +27,4 @@ gitalk:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2020
+startyear: 2021
