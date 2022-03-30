@@ -1,0 +1,21 @@
+.tag {
+    max-width: 600px;
+    margin: 5em auto;
+}
+
+.tag-list-item {
+    font-size: 1.2em;
+}
+
+.tag-list-count {
+    padding-left: 3px;
+    color: #999;
+}
+
+.tag-list-count:before {
+    content: "(";
+}
+
+.tag-list-count:after {
+    content: ")";
+}

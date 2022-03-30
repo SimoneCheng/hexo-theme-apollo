@@ -1,6 +1,11 @@
 extends partial/layout
 
 block container
+    if page.type === 'tag'
+      .tag
+          h2.title 
+              != page.title
+          != list_tags()
     if page.type === 'category'
       .category  
           h2.title 

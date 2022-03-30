@@ -1,10 +1,10 @@
 menu:
     Blog: /
-    # Tags: /tags/
+    Tags: /tags/
     Archive: /archives/
     About: /about/
     # Category: /category/
-    GitHub: https://github.com/SimoneCheng
+    # GitHub: https://github.com/SimoneCheng
     Rss: /atom.xml
     # Friends: /friends/
 
