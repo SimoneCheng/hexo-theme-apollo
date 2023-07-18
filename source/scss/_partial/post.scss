@@ -75,36 +75,28 @@
     }
     // 自定义容器样式
     .info {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 15px;
         background-color: rgba(52,152,219,.3);
         border-left: 4px solid rgb(52,152,219);
         color: darken(rgb(52,152,219),20%);
         margin-bottom: 10px;
     }
     .success {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 15px;
         background-color: rgba(46,204,113,.3);
         border-left: 4px solid rgb(46,204,113);
         color: darken(rgb(46,204,113),20%);
         margin-bottom: 10px;
     }
     .warning {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 15px;
         background-color: rgba(241,196,15,.3);
         border-left: 4px solid rgb(241,196,15);
         color: darken(rgb(241,196,15),20%);
         margin-bottom: 10px;
     }
     .danger {
+        padding: 5px 15px;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 5px;
