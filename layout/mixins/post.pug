@@ -46,5 +46,9 @@ mixin post(item)
             h1.post-title
                 != item.title
             +postInfo(item)
+            aside.toc
+                div.toc-title 目錄
+                div.toc-content
+                    != toc(item.content, { list_number: false, max_depth: 3, min_depth: 2 })
             .post-content
                 != item.content

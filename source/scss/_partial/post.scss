@@ -273,3 +273,28 @@ figcaption{
     text-align: center;
     font-size: 1.1em;
 }
+
+aside.toc {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    ol {
+        list-style: none;
+        padding-left: 12px;
+        margin: 0;
+    }
+    li {
+        margin: 4px;
+    }
+
+    .toc-title, .toc-content {
+        padding: 12px;
+    }
+
+    .toc-title {
+        border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+    }
+
+    .toc-content > ol.toc {
+        padding-left: 0;
+    }
+}
