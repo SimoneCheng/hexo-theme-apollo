@@ -11,6 +11,16 @@ block container
           h2.title 
               != page.title
           != list_categories()
+    if page.type === 'about'
+      .about
+          .post
+              article.post-block
+                h1.post-title
+                    != page.title
+                include mixins/post
+                +postInfo(page)
+                .post-content
+                    != page.content
     else if page.type === 'friends'
       .flink
         if site.data.link
