@@ -282,19 +282,36 @@ aside.toc {
         padding-left: 12px;
         margin: 0;
     }
+
     li {
         margin: 4px;
     }
 
-    .toc-title, .toc-content {
-        padding: 12px;
-    }
-
     .toc-title {
-        border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+        padding: 12px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        .chevron-down-icon {
+            display: flex;
+            align-items: center;
+        }
+        &.active {
+            .chevron-down-icon {
+                transform: rotate(180deg);
+            }
+        }
     }
 
-    .toc-content > ol.toc {
-        padding-left: 0;
+    .toc-content {
+        > ol.toc {
+            padding-left: 0;
+        }
+        padding: 12px;
+        display: none;
+        border-top: 1px solid rgb(0, 0, 0, 0.15);
+        &.active {
+            display: block;
+        }
     }
 }
